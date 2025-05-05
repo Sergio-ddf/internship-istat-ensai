@@ -1,31 +1,40 @@
-# ── Notebook & Python ─────────────────────────────────────────────
-*.ipynb_checkpoints/
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *.so
-*.egg-info/
 
-# ── Dati & output pesanti ─────────────────────────────────────────
-data/**        !data/README.md
+# Jupyter Notebook checkpoints and metadata
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Local environment / secrets
+.env
+.venv/
+env/
+venv/
+.conda/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data and model artifacts
+data/**
 *.csv
 *.tsv
 *.parquet
+*.pkl
+*.pt
+*.joblib
 models/
 ckpt/
 wandb/
 
-# ── Conda / venv ─────────────────────────────────────────────────
-.env
-.conda/
-env/
-venv/
-poetry.lock
-Pipfile.lock
-
-# ── VS Code ───────────────────────────────────────────────────────
+# VS Code settings
 .vscode/
-.history/
 
-# F
-.DS_Store
-Thumbs.db
+# Python packaging
+*.egg-info/
+dist/
+build/

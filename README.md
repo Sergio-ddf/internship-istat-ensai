@@ -68,7 +68,7 @@ Dopo il fine-tuning con i parametri ottimizzati, abbiamo ottenuto:
 
 * Macro-F1 iniziale TF-IDF+LR: 0.16 (baseline)
 * Macro-F1 dopo fine-tuning UmBERTo senza calibrazione soglie: \~0.47
-* Macro-F1 finale dopo calibrazione soglie: \~0.55
+* Macro-F1 finale dopo calibrazione soglie: \~0.51
 
 Questi risultati evidenziano come il fine-tuning di LLM su task multilabel possa fornire notevoli miglioramenti rispetto ad approcci tradizionali, ma sottolineano anche l'importanza della gestione fine di soglie, loss e regolarizzazioni.
 

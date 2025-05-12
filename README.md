@@ -10,7 +10,7 @@ L'obiettivo principale di questa fase è prendere familiarità con tecniche di f
 * Affrontare e risolvere difficoltà tipiche come sbilanciamento delle classi, selezione e calibrazione della loss, tuning di iperparametri, ecc...
 * Impostare una pipeline riproducibile e documentata per estensioni future.
 
-## Struttura del progetto
+## Struttura
 
 * `Emit_finetuning.ipynb`: notebook Jupyter che contiene l'intera pipeline di fine-tuning.
 * `data/`: directory contenente i dataset EMit utilizzati.
